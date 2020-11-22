@@ -4,5 +4,5 @@ if (!empty($_GET)) {
   $myObj = new stdClass();
   $myObj->name = 'хуй';
   $arr[] = $myObj;
-  echo json_encode($arr);
+  return json_encode($arr);
 }
